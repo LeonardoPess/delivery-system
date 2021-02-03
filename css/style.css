@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.descricao-home{
+  padding: 20px 0;
+
+  text-align: center;
+  color: white;
+  background-color: #e53935;
+}
+
+.descricao-home > .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.descricao-home a{
+  display: inline-block;
+  padding: 6px 8px;
+
+  color: #e53935;
+  border-radius: 10px;
+  background-color: white;
+  text-decoration: none;
+}
+
+.lista-produtos{
+  margin-top: 30px;
+}
+
+.lista-produtos > .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-single-food{
+  width: 33.3%;
+
+  padding: 0 10px;
+
+  text-align: center;
+}
+
+.box-single-food img{
+  width: 100%;
+  max-height: 150px;
+}
+
+.box-single-food p{
+  margin-top: 5px;
+
+  color: gray;
+}
+
+.box-single-food a{
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10px 0;
+
+  color: white;
+  border-radius: 10px;
+  background-color: #e53935;
+  text-decoration: none;
+}
+
+table{
+  width: 100%;
+
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+table td{
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+table img{
+  max-width: 150px;
+  max-height: 150px;
+}
